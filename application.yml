@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: 
+      -dev
+      
+---
+spring:
+  profiles:
+    active: dev
+  application:
+    name: microservice-dept-leimin-dev
+    
+---
+spring:
+  profiles:
+    active: test
+  application:
+    name: microservice-dept-leimin-test
+    
+    
+        
